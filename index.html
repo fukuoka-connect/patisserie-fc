@@ -1,0 +1,1303 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Patisserie FC | ○○町のフランス菓子店 - 1988年創業</title>
+<meta name="description" content="○○町で38年愛されるフランス菓子専門店Patisserie FC。約20種のプチガトーが並ぶショーケースと、フランスのカフェのようなイートイン空間。JR○○駅から徒歩約13分。">
+<link rel="canonical" href="https://example.com/">
+
+<!-- OGP -->
+<meta property="og:title" content="Patisserie FC | ○○町のフランス菓子店 - 1988年創業">
+<meta property="og:description" content="○○町で38年愛されるフランス菓子専門店。約20種のプチガトーとカフェ空間。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://example.com/">
+<meta property="og:site_name" content="Patisserie FC">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:image" content="https://example.com/og-image.jpg">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Patisserie FC | ○○町のフランス菓子店 - 1988年創業">
+<meta name="twitter:description" content="○○町で38年愛されるフランス菓子専門店。約20種のプチガトーとカフェ空間。">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Noto+Sans+JP:wght@400;500;700&family=Shippori+Mincho:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<!-- GA4 placeholder -->
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-XXXXXXXXXX');
+</script> -->
+
+<!-- Schema.org -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Bakery",
+  "name": "Patisserie FC",
+  "alternateName": "パティスリーFC",
+  "url": "https://example.com/",
+  "telephone": "000-000-0000",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "○○ ○○ビル1F",
+    "addressLocality": "○○郡○○町",
+    "addressRegion": "○○県",
+    "postalCode": "000-0000",
+    "addressCountry": "JP"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 33.5785,
+    "longitude": 130.5165
+  },
+  "openingHours": "Tu-Su 10:00-20:00",
+  "priceRange": "1,000〜1,999円",
+  "servesCuisine": "フランス菓子",
+  "foundingDate": "1988",
+  "description": "○○町で38年愛されるフランス菓子専門店。約20種のプチガトーとカフェ空間。",
+  "image": "https://example.com/og-image.jpg"
+}
+</script>
+
+<style>
+/* ========== CSS Variables ========== */
+:root {
+  --primary: #C48B9F;
+  --primary-dark: #9E6B7F;
+  --accent: #8B7355;
+  --accent-dark: #6E5A43;
+  --bg: #FFFDF9;
+  --bg-alt: #FFF5EE;
+  --text: #3D2E2E;
+  --text-light: #7A6565;
+  --white: #FFFFFF;
+  --shadow: rgba(61, 46, 46, 0.08);
+  --shadow-hover: rgba(61, 46, 46, 0.16);
+  --transition-on: 0.22s cubic-bezier(.25,.46,.45,.94);
+  --transition-off: 0.48s cubic-bezier(.25,.46,.45,.94);
+}
+
+/* ========== Reset & Base ========== */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 400;
+  font-display: swap;
+  color: var(--text);
+  background-color: var(--bg);
+  line-height: 1.8;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+  transition: color var(--transition-on);
+}
+
+a:hover {
+  color: var(--primary-dark);
+  transition: color var(--transition-off);
+}
+
+.sm {
+  font-size: 0.78em;
+}
+
+/* ========== Typography ========== */
+h1, h2, h3 {
+  font-family: 'Shippori Mincho', serif;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.section-label {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 0.85rem;
+  font-weight: 400;
+  letter-spacing: 0.15em;
+  color: var(--primary);
+  text-transform: lowercase;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.section-title {
+  background: linear-gradient(135deg, #8B6B4A, #C48B9F);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 1.75rem;
+  margin-bottom: 1.5rem;
+}
+
+/* ========== Layout ========== */
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+section {
+  padding: 5rem 0;
+}
+
+/* ========== NAV ========== */
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background: rgba(255, 253, 249, 0.95);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-bottom: 1px solid rgba(196, 139, 159, 0.15);
+  padding: 0.75rem 0;
+  transition: box-shadow var(--transition-off);
+}
+
+.nav.scrolled {
+  box-shadow: 0 2px 16px var(--shadow);
+}
+
+.nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-brand {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: var(--text);
+  letter-spacing: 0.05em;
+}
+
+.nav-brand:hover {
+  color: var(--primary-dark);
+}
+
+.nav-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: var(--accent);
+  color: var(--white);
+  padding: 0.5rem 1.25rem;
+  border-radius: 50px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  transition: background var(--transition-on), transform var(--transition-on);
+}
+
+.nav-cta:hover {
+  background: var(--accent-dark);
+  color: var(--white);
+  transform: translateY(-1px);
+  transition: background var(--transition-off), transform var(--transition-off);
+}
+
+.nav-cta svg {
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
+}
+
+/* ========== HERO ========== */
+.hero {
+  background: var(--bg);
+  padding-top: 7rem;
+  padding-bottom: 4rem;
+  text-align: center;
+}
+
+.hero-visual {
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto 2.5rem;
+  aspect-ratio: 16 / 9;
+  background: linear-gradient(135deg, var(--bg-alt), #F5E6D8);
+  border-radius: 30% 70% 69% 31% / 30% 30% 70% 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-light);
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.1rem;
+  letter-spacing: 0.1em;
+  overflow: hidden;
+}
+
+.hero h1 {
+  font-size: 1.65rem;
+  color: var(--text);
+  margin-bottom: 1rem;
+  letter-spacing: 0.03em;
+}
+
+.hero-sub {
+  font-size: 0.95rem;
+  color: var(--text-light);
+  line-height: 1.9;
+  margin-bottom: 2rem;
+  max-width: 540px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ========== CTA Button ========== */
+.cta-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: var(--accent);
+  color: var(--white);
+  padding: 1rem 2.5rem;
+  border-radius: 50px;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  transition: background var(--transition-on), transform var(--transition-on), box-shadow var(--transition-on);
+  box-shadow: 0 4px 16px rgba(139, 115, 85, 0.2);
+}
+
+.cta-btn:hover {
+  background: var(--accent-dark);
+  color: var(--white);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 24px rgba(139, 115, 85, 0.3);
+  transition: background var(--transition-off), transform var(--transition-off), box-shadow var(--transition-off);
+}
+
+.cta-btn svg {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+
+.cta-note {
+  font-size: 0.8rem;
+  color: var(--text-light);
+  margin-top: 0.75rem;
+}
+
+/* ========== STORY ========== */
+.story {
+  background-color: var(--bg-alt);
+  background-image: radial-gradient(#f5ebe0 1.5px, transparent 1.5px);
+  background-size: 18px 18px;
+}
+
+.story-inner {
+  max-width: 680px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.story-text {
+  font-size: 0.95rem;
+  line-height: 2.2;
+  color: var(--text);
+  margin-bottom: 1.5rem;
+}
+
+.story-text:last-of-type {
+  margin-bottom: 0;
+}
+
+.story-highlight {
+  font-family: 'Shippori Mincho', serif;
+  font-size: 1.15rem;
+  color: var(--primary-dark);
+  font-weight: 500;
+  margin: 2rem 0;
+  line-height: 2;
+}
+
+/* ========== MENU (Card Grid) ========== */
+.menu {
+  background-color: var(--bg-alt);
+  background-image: radial-gradient(#f5ebe0 1.5px, transparent 1.5px);
+  background-size: 18px 18px;
+}
+
+.menu-intro {
+  text-align: center;
+  font-size: 0.95rem;
+  color: var(--text-light);
+  margin-bottom: 2.5rem;
+  max-width: 560px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.menu-card {
+  background: var(--white);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px var(--shadow);
+  transition: transform var(--transition-on), box-shadow var(--transition-on);
+}
+
+.menu-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 32px var(--shadow-hover);
+  transition: transform var(--transition-off), box-shadow var(--transition-off);
+}
+
+.menu-card-img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  background: linear-gradient(135deg, var(--bg-alt), #F0DDD0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-light);
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 0.9rem;
+  letter-spacing: 0.1em;
+}
+
+.menu-card-body {
+  padding: 1.1rem 1.25rem 1.25rem;
+}
+
+.menu-card-name-fr {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: var(--text);
+  letter-spacing: 0.05em;
+  margin-bottom: 0.2rem;
+}
+
+.menu-card-name-ja {
+  font-size: 0.8rem;
+  color: var(--text-light);
+  margin-bottom: 0.5rem;
+}
+
+.menu-card-desc {
+  font-size: 0.82rem;
+  color: var(--text-light);
+  line-height: 1.7;
+  margin-bottom: 0.6rem;
+}
+
+.menu-card-price {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--accent);
+}
+
+.menu-card-price .yen {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 0.75rem;
+}
+
+.menu-more {
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--text-light);
+  margin-top: 1rem;
+}
+
+/* ========== SPACE ========== */
+.space {
+  background: var(--bg);
+}
+
+.space-inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+}
+
+.space-visual {
+  aspect-ratio: 4 / 3;
+  background: linear-gradient(135deg, #F0E0D0, var(--bg-alt));
+  border-radius: 60% 40% 50% 50% / 55% 45% 55% 45%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-light);
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 0.95rem;
+  letter-spacing: 0.1em;
+}
+
+.space-content .section-label,
+.space-content .section-title {
+  text-align: left;
+}
+
+.space-text {
+  font-size: 0.95rem;
+  line-height: 2;
+  color: var(--text);
+  margin-bottom: 1rem;
+}
+
+.space-features {
+  list-style: none;
+  margin: 1.5rem 0 2rem;
+}
+
+.space-features li {
+  font-size: 0.9rem;
+  color: var(--text);
+  padding: 0.4rem 0;
+  padding-left: 1.2rem;
+  position: relative;
+}
+
+.space-features li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--primary);
+}
+
+/* ========== VOICE ========== */
+.voice {
+  background-color: var(--bg-alt);
+  background-image: radial-gradient(#f5ebe0 1.5px, transparent 1.5px);
+  background-size: 18px 18px;
+}
+
+.voice .section-label,
+.voice .section-title {
+  text-align: center;
+}
+
+.voice-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.voice-card {
+  background: var(--white);
+  border-radius: 12px;
+  padding: 1.75rem 1.5rem;
+  box-shadow: 0 2px 12px var(--shadow);
+  position: relative;
+}
+
+.voice-card::before {
+  content: '\201C';
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 3.5rem;
+  color: var(--primary);
+  opacity: 0.3;
+  position: absolute;
+  top: 0.5rem;
+  left: 1rem;
+  line-height: 1;
+}
+
+.voice-text {
+  font-size: 0.9rem;
+  line-height: 1.9;
+  color: var(--text);
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.voice-author {
+  font-size: 0.8rem;
+  color: var(--text-light);
+  text-align: right;
+}
+
+.voice-loss {
+  text-align: center;
+  font-family: 'Shippori Mincho', serif;
+  font-size: 1.05rem;
+  color: var(--primary-dark);
+  margin-top: 0.5rem;
+}
+
+/* ========== ACCESS ========== */
+.access {
+  background: var(--bg);
+}
+
+.access .section-label,
+.access .section-title {
+  text-align: center;
+}
+
+.access-inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem;
+  align-items: start;
+}
+
+.access-map {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px var(--shadow);
+}
+
+.access-map iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.access-table {
+  width: 100%;
+}
+
+.access-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.access-table th,
+.access-table td {
+  padding: 0.85rem 0;
+  font-size: 0.9rem;
+  border-bottom: 1px solid rgba(196, 139, 159, 0.15);
+  text-align: left;
+  vertical-align: top;
+}
+
+.access-table th {
+  font-weight: 500;
+  color: var(--text);
+  width: 30%;
+  white-space: nowrap;
+  padding-right: 1rem;
+}
+
+.access-table td {
+  color: var(--text-light);
+}
+
+.access-table a {
+  color: var(--accent);
+  font-weight: 500;
+}
+
+.access-table a:hover {
+  color: var(--primary-dark);
+}
+
+/* ========== FOOTER CTA ========== */
+.footer-cta {
+  background: var(--bg);
+  text-align: center;
+  padding: 4rem 0 2rem;
+}
+
+.footer-cta-title {
+  font-family: 'Shippori Mincho', serif;
+  font-size: 1.35rem;
+  color: var(--text);
+  margin-bottom: 0.75rem;
+}
+
+.footer-cta-sub {
+  font-size: 0.9rem;
+  color: var(--text-light);
+  margin-bottom: 2rem;
+}
+
+.footer-cta-tel {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2rem;
+  font-weight: 500;
+  color: var(--accent);
+  letter-spacing: 0.05em;
+  display: block;
+  margin-bottom: 0.5rem;
+  transition: color var(--transition-on);
+}
+
+.footer-cta-tel:hover {
+  color: var(--primary-dark);
+  transition: color var(--transition-off);
+}
+
+.footer-cta-hours {
+  font-size: 0.82rem;
+  color: var(--text-light);
+  margin-bottom: 2rem;
+}
+
+/* ========== FOOTER ========== */
+.footer {
+  background: var(--text);
+  color: rgba(255, 253, 249, 0.7);
+  padding: 2rem 0;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.footer a {
+  color: rgba(255, 253, 249, 0.7);
+}
+
+.footer a:hover {
+  color: var(--white);
+}
+
+.footer-brand {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: rgba(255, 253, 249, 0.9);
+  letter-spacing: 0.05em;
+  margin-bottom: 0.5rem;
+}
+
+.footer-address {
+  margin-bottom: 1rem;
+  line-height: 1.8;
+}
+
+.footer-copy {
+  font-size: 0.75rem;
+  opacity: 0.6;
+}
+
+/* ========== Mobile Fixed Footer CTA ========== */
+.mobile-cta {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  background: var(--accent);
+  padding: 0;
+}
+
+.mobile-cta a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  color: var(--white);
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+}
+
+.mobile-cta a:hover {
+  color: var(--white);
+  background: var(--accent-dark);
+}
+
+.mobile-cta svg {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+
+/* ========== Watercolor Decorations ========== */
+.wc-flower-line {
+  display: block;
+  width: 180px;
+  height: auto;
+  margin: 0 auto 1.5rem;
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.wc-circle-deco {
+  position: absolute;
+  width: 280px;
+  height: 280px;
+  opacity: 0.15;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.wc-dot-deco {
+  position: absolute;
+  width: 160px;
+  height: auto;
+  opacity: 0.35;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.wc-leaf-deco {
+  position: absolute;
+  width: 120px;
+  height: auto;
+  opacity: 0.3;
+  pointer-events: none;
+  z-index: 0;
+}
+
+@media (max-width: 600px) {
+  .wc-circle-deco { width: 180px; height: 180px; }
+  .wc-dot-deco { width: 100px; }
+  .wc-leaf-deco { width: 80px; }
+  .wc-flower-line { width: 140px; }
+}
+
+/* ========== Wave Divider ========== */
+.wave-divider {
+  width: 100%;
+  line-height: 0;
+  margin-bottom: -1px;
+}
+
+.wave-divider svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.wave-divider--flip svg {
+  transform: rotate(180deg);
+}
+
+/* ========== Scroll Animation ========== */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s cubic-bezier(.25,.46,.45,.94), transform 0.6s cubic-bezier(.25,.46,.45,.94);
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ========== Responsive ========== */
+@media (max-width: 900px) {
+  .menu-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .voice-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .voice-grid .voice-card:last-child {
+    grid-column: 1 / -1;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .space-inner {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .space-content .section-label,
+  .space-content .section-title {
+    text-align: center;
+  }
+
+  .space-content {
+    text-align: center;
+  }
+
+  .space-features {
+    display: inline-block;
+    text-align: left;
+  }
+
+  .access-inner {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+
+  section {
+    padding: 3.5rem 0;
+  }
+
+  .hero {
+    padding-top: 5.5rem;
+    padding-bottom: 3rem;
+  }
+
+  .hero h1 {
+    font-size: 1.3rem;
+  }
+
+  .hero-sub {
+    font-size: 0.88rem;
+  }
+
+  .section-title {
+    font-size: 1.4rem;
+  }
+
+  .menu-grid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .menu-card {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+  }
+
+  .menu-card-img {
+    aspect-ratio: 1 / 1;
+    height: 100%;
+  }
+
+  .menu-card-body {
+    padding: 0.9rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .voice-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .voice-grid .voice-card:last-child {
+    max-width: 100%;
+  }
+
+  .mobile-cta {
+    display: block;
+  }
+
+  body {
+    padding-bottom: 60px;
+  }
+
+  .footer-cta {
+    padding-bottom: 1.5rem;
+  }
+
+  .nav-cta {
+    padding: 0.4rem 1rem;
+    font-size: 0.78rem;
+  }
+
+  .cta-btn {
+    padding: 0.85rem 2rem;
+    font-size: 0.92rem;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- ========== NAV ========== -->
+<nav class="nav" id="nav">
+  <div class="container">
+    <a href="#" class="nav-brand">Patisserie FC</a>
+    <a href="tel:000-000-0000" class="nav-cta">
+      <svg viewBox="0 0 24 24"><path d="M6.62 10.79a15.53 15.53 0 006.59 6.59l2.2-2.2a1.003 1.003 0 011.01-.24c1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.24 1.01l-2.2 2.21z"/></svg>
+      電話予約
+    </a>
+  </div>
+</nav>
+
+<!-- ========== HERO ========== -->
+<section class="hero" id="hero">
+  <div class="container">
+    <div class="hero-visual">PHOTO</div>
+    <h1>1988年、○○町<span class="sm">に</span>生まれた<br>フランス菓子<span class="sm">の</span>小さな<span class="sm">アトリエ</span></h1>
+    <p class="hero-sub">ショーケース<span class="sm">に</span>並ぶ約20種<span class="sm">の</span>プチガトー。<br>一つひとつ<span class="sm">に</span>、パティシエ<span class="sm">の</span>想い<span class="sm">を</span>。</p>
+    <a href="tel:000-000-0000" class="cta-btn">
+      <svg viewBox="0 0 24 24"><path d="M6.62 10.79a15.53 15.53 0 006.59 6.59l2.2-2.2a1.003 1.003 0 011.01-.24c1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.24 1.01l-2.2 2.21z"/></svg>
+      電話<span class="sm">で</span>予約する
+    </a>
+    <p class="cta-note">季節限定<span class="sm">の</span>プチガトー<span class="sm">は</span>売り切れ次第終了 / 10:00〜20:00 / 月曜定休</p>
+  </div>
+</section>
+
+<!-- Wave: 上部ウェーブ（STORY上端・上向き） -->
+<div class="wave-divider">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <path fill="#FFF5EE" fill-opacity="1" d="M0,96L48,112C96,128,192,160,288,165.3C384,171,480,149,576,133.3C672,117,768,107,864,112C960,117,1056,139,1152,149.3C1248,160,1344,160,1392,160L1440,160L1440,320L0,320Z"></path>
+  </svg>
+</div>
+
+<!-- ========== STORY ========== -->
+<section class="story" id="story" style="position:relative;overflow:hidden;">
+  <img src="assets/circle_water_pink.png" class="wc-circle-deco" style="top:-40px;right:20px;" alt="">
+  <img src="assets/circle_water_pink.png" class="wc-circle-deco" style="bottom:-40px;left:20px;width:220px;height:220px;" alt="">
+  <div class="container" style="position:relative;z-index:1;">
+    <div class="story-inner fade-in">
+      <span class="section-label">Notre Histoire</span>
+      <h2 class="section-title">38年、変わらない<span class="sm">もの</span></h2>
+      <img src="assets/flower_water1.png" class="wc-flower-line" alt="">
+      <p class="story-text">1988年<span class="sm">の</span>創業以来、Patisserie FC<span class="sm">は</span>○○町<span class="sm">の</span>この場所<span class="sm">で</span>フランス菓子<span class="sm">を</span>つくり続けて<span class="sm">きました</span>。華やか<span class="sm">な</span>見た目<span class="sm">の</span>奥<span class="sm">に</span>ある、素材<span class="sm">の</span>味わい<span class="sm">を</span>大切<span class="sm">に</span>する丁寧<span class="sm">な</span>仕事。それ<span class="sm">が</span>私たち<span class="sm">の</span>変わらない信念<span class="sm">です</span>。</p>
+      <p class="story-highlight">フランス<span class="sm">の</span>カフェ<span class="sm">の</span>ような空間<span class="sm">で</span>、<br>ゆっくり<span class="sm">と</span>、お菓子<span class="sm">と</span>向き合う時間<span class="sm">を</span>。</p>
+      <p class="story-text">クラシック<span class="sm">で</span>スタイリッシュ<span class="sm">な</span>店内<span class="sm">に</span>は、カウンター席<span class="sm">も</span>ご用意して<span class="sm">います</span>。焼き菓子<span class="sm">の</span>甘い香り<span class="sm">が</span>漂う空間<span class="sm">で</span>、お気に入り<span class="sm">の</span>一皿<span class="sm">と</span>過ごすひととき。それ<span class="sm">は</span>きっと、日常<span class="sm">の</span>中<span class="sm">の</span>小さな贅沢<span class="sm">に</span>なる<span class="sm">はず</span><span class="sm">です</span>。</p>
+    </div>
+  </div>
+</section>
+
+<!-- ========== MENU ========== -->
+<section class="menu" id="menu" style="position:relative;overflow:hidden;">
+  <img src="assets/dot_water_yellow.png" class="wc-dot-deco" style="top:40px;right:40px;" alt="">
+  <img src="assets/leaf_water1.png" class="wc-leaf-deco" style="bottom:60px;left:40px;" alt="">
+  <div class="container" style="position:relative;z-index:1;">
+    <div class="fade-in" style="text-align:center;">
+      <span class="section-label">Patisseries</span>
+      <h2 class="section-title">ショーケース<span class="sm">の</span>宝石たち</h2>
+      <img src="assets/flower_water1.png" class="wc-flower-line" alt="">
+      <p class="menu-intro">約20種類<span class="sm">の</span>プチガトー<span class="sm">が</span>並ぶショーケース。季節<span class="sm">ごと</span><span class="sm">に</span>表情<span class="sm">を</span>変える、パティシエ渾身<span class="sm">の</span>ラインナップ<span class="sm">を</span>ご紹介<span class="sm">します</span>。</p>
+    </div>
+    <div class="menu-grid">
+      <!-- Amazona -->
+      <div class="menu-card fade-in">
+        <div class="menu-card-img">PHOTO</div>
+        <div class="menu-card-body">
+          <div class="menu-card-name-fr">Amazona</div>
+          <div class="menu-card-name-ja">アマゾナ</div>
+          <p class="menu-card-desc">カシス<span class="sm">の</span>鮮やか<span class="sm">な</span>酸味<span class="sm">が</span>広がるムース。フルーツ<span class="sm">の</span>力強さ<span class="sm">と</span>繊細さ<span class="sm">が</span>共存する一皿。</p>
+          <div class="menu-card-price">368<span class="yen">円（税込）</span></div>
+        </div>
+      </div>
+      <!-- Coco -->
+      <div class="menu-card fade-in">
+        <div class="menu-card-img">PHOTO</div>
+        <div class="menu-card-body">
+          <div class="menu-card-name-fr">Coco</div>
+          <div class="menu-card-name-ja">ココ</div>
+          <p class="menu-card-desc">ココナッツ<span class="sm">の</span>芳醇<span class="sm">な</span>香り<span class="sm">を</span>閉じ込めたムース。南国<span class="sm">の</span>風<span class="sm">を</span>感じる、やさしい甘さ。</p>
+          <div class="menu-card-price">368<span class="yen">円（税込）</span></div>
+        </div>
+      </div>
+      <!-- Noir -->
+      <div class="menu-card fade-in">
+        <div class="menu-card-img">PHOTO</div>
+        <div class="menu-card-body">
+          <div class="menu-card-name-fr">Noir</div>
+          <div class="menu-card-name-ja">ノワール</div>
+          <p class="menu-card-desc">オレンジ<span class="sm">の</span>ジェノワーズ<span class="sm">に</span>、ビター<span class="sm">な</span>チョコレート<span class="sm">が</span>重なる。大人<span class="sm">の</span>ため<span class="sm">の</span>一品。</p>
+          <div class="menu-card-price">368<span class="yen">円（税込）</span></div>
+        </div>
+      </div>
+      <!-- Caramel -->
+      <div class="menu-card fade-in">
+        <div class="menu-card-img">PHOTO</div>
+        <div class="menu-card-body">
+          <div class="menu-card-name-fr">Caramel</div>
+          <div class="menu-card-name-ja">キャラメル</div>
+          <p class="menu-card-desc">白ワイン<span class="sm">を</span>染み込ませたキャラメルケーキ。ふわっ<span class="sm">と</span>香るワイン<span class="sm">の</span>余韻<span class="sm">が</span>格別。</p>
+          <div class="menu-card-price"><span class="yen">価格はお店でご確認ください</span></div>
+        </div>
+      </div>
+      <!-- Chocolat Truffe -->
+      <div class="menu-card fade-in">
+        <div class="menu-card-img">PHOTO</div>
+        <div class="menu-card-body">
+          <div class="menu-card-name-fr">Chocolat Truffe</div>
+          <div class="menu-card-name-ja">ショコラトリュフ</div>
+          <p class="menu-card-desc">濃厚<span class="sm">な</span>チョコレート<span class="sm">の</span>深い味わい。トリュフ<span class="sm">の</span>芳醇<span class="sm">な</span>香り<span class="sm">が</span>口いっぱい<span class="sm">に</span>広がる。</p>
+          <div class="menu-card-price"><span class="yen">価格はお店でご確認ください</span></div>
+        </div>
+      </div>
+      <!-- Tina -->
+      <div class="menu-card fade-in">
+        <div class="menu-card-img">PHOTO</div>
+        <div class="menu-card-body">
+          <div class="menu-card-name-fr">Tina</div>
+          <div class="menu-card-name-ja">ティナ</div>
+          <p class="menu-card-desc">パティシエ<span class="sm">が</span>丁寧<span class="sm">に</span>仕上げる、美しいフォルム<span class="sm">の</span>プチガトー。</p>
+          <div class="menu-card-price"><span class="yen">価格はお店でご確認ください</span></div>
+        </div>
+      </div>
+      <!-- Fete -->
+      <div class="menu-card fade-in">
+        <div class="menu-card-img">PHOTO</div>
+        <div class="menu-card-body">
+          <div class="menu-card-name-fr">F&ecirc;te</div>
+          <div class="menu-card-name-ja">フェテ</div>
+          <p class="menu-card-desc">「お祝い」<span class="sm">を</span>意味するフランス語<span class="sm">の</span>名<span class="sm">を</span>持つ、華やか<span class="sm">な</span>一品。特別<span class="sm">な</span>日<span class="sm">に</span>。</p>
+          <div class="menu-card-price"><span class="yen">価格はお店でご確認ください</span></div>
+        </div>
+      </div>
+      <!-- Coffee -->
+      <div class="menu-card fade-in">
+        <div class="menu-card-img">PHOTO</div>
+        <div class="menu-card-body">
+          <div class="menu-card-name-fr">Caf&eacute;</div>
+          <div class="menu-card-name-ja">コーヒー</div>
+          <p class="menu-card-desc">ケーキ<span class="sm">と</span>ともに<span class="sm">お</span>楽しみいただける、イートイン限定<span class="sm">の</span>ドリンク。</p>
+          <div class="menu-card-price">410<span class="yen">円（税込）</span></div>
+        </div>
+      </div>
+    </div>
+    <p class="menu-more fade-in">...ほか約20種類<span class="sm">の</span>プチガトー<span class="sm">が</span>ショーケース<span class="sm">に</span>並びます</p>
+  </div>
+</section>
+
+<!-- Wave: 下部ウェーブ（MENU下端・下向き） -->
+<div class="wave-divider">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <path fill="#FFF5EE" fill-opacity="1" d="M0,160L48,154.7C96,149,192,139,288,122.7C384,107,480,85,576,90.7C672,96,768,128,864,138.7C960,149,1056,139,1152,122.7C1248,107,1344,85,1392,74.7L1440,64L1440,0L0,0Z"></path>
+  </svg>
+</div>
+
+<!-- ========== SPACE ========== -->
+<section class="space" id="space">
+  <div class="container">
+    <div class="space-inner">
+      <div class="space-visual fade-in">PHOTO</div>
+      <div class="space-content fade-in">
+        <span class="section-label">L'Espace</span>
+        <h2 class="section-title">一人<span class="sm">の</span>時間<span class="sm">を</span><br>大切<span class="sm">に</span>できる場所</h2>
+        <p class="space-text">バーカウンター<span class="sm">の</span>ような佇まい<span class="sm">の</span>カウンター席。フランス<span class="sm">の</span>カフェ<span class="sm">を</span>思わせる上品<span class="sm">な</span>空間<span class="sm">で</span>、お気に入り<span class="sm">の</span>ケーキ<span class="sm">と</span>コーヒー<span class="sm">を</span>ゆっくり<span class="sm">と</span>。</p>
+        <ul class="space-features">
+          <li>イートイン10席（カウンター席あり）</li>
+          <li>おひとり様<span class="sm">も</span>歓迎</li>
+          <li>全席禁煙</li>
+        </ul>
+        <a href="tel:000-000-0000" class="cta-btn">
+          <svg viewBox="0 0 24 24"><path d="M6.62 10.79a15.53 15.53 0 006.59 6.59l2.2-2.2a1.003 1.003 0 011.01-.24c1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.24 1.01l-2.2 2.21z"/></svg>
+          電話<span class="sm">で</span>予約する
+        </a>
+        <p class="cta-note">10:00〜20:00 / 月曜定休</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== VOICE ========== -->
+<section class="voice" id="voice" style="position:relative;overflow:hidden;">
+  <img src="assets/circle_water_pink.png" class="wc-circle-deco" style="top:20px;left:20px;width:240px;height:240px;" alt="">
+  <div class="container" style="position:relative;z-index:1;">
+    <div class="fade-in">
+      <span class="section-label">Voix</span>
+      <h2 class="section-title">お客様<span class="sm">の</span>声</h2>
+    </div>
+    <div class="voice-grid">
+      <div class="voice-card fade-in">
+        <p class="voice-text">フランス<span class="sm">の</span>カフェ<span class="sm">の</span>ような雰囲気<span class="sm">で</span>、ショーケース<span class="sm">の</span>中<span class="sm">には</span>可愛らしいケーキ<span class="sm">が</span>20種類近く並べられて<span class="sm">あります</span>。どれ<span class="sm">を</span>選ぶ<span class="sm">か</span>迷ってしまう<span class="sm">ほど</span>。</p>
+        <p class="voice-author">-- 30代女性</p>
+      </div>
+      <div class="voice-card fade-in">
+        <p class="voice-text">キャラメルムース<span class="sm">と</span>ワイン<span class="sm">の</span>香り<span class="sm">が</span>ふわっ<span class="sm">と</span>して美味しかった。綺麗<span class="sm">で</span>上品<span class="sm">な</span>お店<span class="sm">で</span>、特別<span class="sm">な</span>気分<span class="sm">に</span>なれます。</p>
+        <p class="voice-author">-- 40代女性</p>
+      </div>
+      <div class="voice-card fade-in">
+        <p class="voice-text">クラシック<span class="sm">で</span>スタイリッシュ<span class="sm">な</span>店内。バーカウンター<span class="sm">の</span>ような席<span class="sm">で</span>一人<span class="sm">でも</span>ゆっくりできました。</p>
+        <p class="voice-author">-- 30代男性</p>
+      </div>
+    </div>
+    <p class="voice-loss fade-in">まだ多く<span class="sm">の</span>人<span class="sm">が</span>知らない、○○町<span class="sm">の</span>隠れ家パティスリー</p>
+  </div>
+</section>
+
+<!-- ========== ACCESS ========== -->
+<section class="access" id="access">
+  <div class="container">
+    <div class="fade-in" style="text-align:center;">
+      <span class="section-label">Acc&egrave;s</span>
+      <h2 class="section-title">アクセス・店舗情報</h2>
+    </div>
+    <div class="access-inner fade-in">
+      <div class="access-map">
+        <div style="width:100%;height:100%;background:linear-gradient(135deg, var(--bg-alt), #F5E6D8);display:flex;align-items:center;justify-content:center;color:var(--text-light);font-family:'Cormorant Garamond',serif;font-size:0.95rem;letter-spacing:0.1em;">Google Maps</div>
+      </div>
+      <div class="access-table">
+        <table>
+          <tr>
+            <th>店名</th>
+            <td>Patisserie FC<br><span style="font-size:0.85em;">パティスリーFC</span></td>
+          </tr>
+          <tr>
+            <th>住所</th>
+            <td>○○県○○郡○○町須恵124<br>ヒルサイドテラス1F</td>
+          </tr>
+          <tr>
+            <th>電話</th>
+            <td><a href="tel:000-000-0000">000-000-0000</a></td>
+          </tr>
+          <tr>
+            <th>営業時間</th>
+            <td>10:00〜20:00</td>
+          </tr>
+          <tr>
+            <th>定休日</th>
+            <td>月曜日（祝日<span class="sm">の</span>場合<span class="sm">は</span>翌火曜）</td>
+          </tr>
+          <tr>
+            <th>席数</th>
+            <td>10席（カウンター席あり・全席禁煙）</td>
+          </tr>
+          <tr>
+            <th>最寄駅</th>
+            <td>○○線 ○○駅<br>徒歩約13分</td>
+          </tr>
+          <tr>
+            <th>価格帯</th>
+            <td>1,000〜1,999円/人</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== FOOTER CTA ========== -->
+<div class="footer-cta" id="contact">
+  <div class="container fade-in">
+    <p class="footer-cta-title">ショーケース<span class="sm">の</span>前<span class="sm">で</span>、<br>お待ちして<span class="sm">おります</span>。</p>
+    <p class="footer-cta-sub">お取り置き・ご予約<span class="sm">は</span>お電話<span class="sm">にて</span>承ります</p>
+    <a href="tel:000-000-0000" class="cta-btn">
+      <svg viewBox="0 0 24 24"><path d="M6.62 10.79a15.53 15.53 0 006.59 6.59l2.2-2.2a1.003 1.003 0 011.01-.24c1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.24 1.01l-2.2 2.21z"/></svg>
+      電話<span class="sm">で</span>予約する
+    </a>
+    <p class="footer-cta-hours">10:00〜20:00 / 月曜定休（祝日<span class="sm">の</span>場合<span class="sm">は</span>翌火曜）</p>
+  </div>
+</div>
+
+<!-- ========== FOOTER ========== -->
+<footer class="footer">
+  <div class="container">
+    <p class="footer-brand">Patisserie FC</p>
+    <p class="footer-address">
+      ○○県○○郡○○町○○ ○○ビル1F<br>
+      <a href="tel:000-000-0000">000-000-0000</a> / 10:00〜20:00 / 月曜定休
+    </p>
+    <p class="footer-copy">&copy; 2026 Patisserie FC. All rights reserved.</p>
+  </div>
+</footer>
+
+<!-- ========== Mobile Fixed CTA ========== -->
+<div class="mobile-cta">
+  <a href="tel:000-000-0000">
+    <svg viewBox="0 0 24 24"><path d="M6.62 10.79a15.53 15.53 0 006.59 6.59l2.2-2.2a1.003 1.003 0 011.01-.24c1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.24 1.01l-2.2 2.21z"/></svg>
+    電話で予約・お問い合わせ
+  </a>
+</div>
+
+<!-- ========== JavaScript ========== -->
+<script>
+// Nav scroll effect
+const nav = document.getElementById('nav');
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 40) {
+    nav.classList.add('scrolled');
+  } else {
+    nav.classList.remove('scrolled');
+  }
+}, { passive: true });
+
+// Scroll fade-in
+const fadeEls = document.querySelectorAll('.fade-in');
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+      observer.unobserve(entry.target);
+    }
+  });
+}, {
+  threshold: 0.15,
+  rootMargin: '0px 0px -40px 0px'
+});
+fadeEls.forEach(el => observer.observe(el));
+
+// GA4 Custom Events
+// CTA click tracking
+document.querySelectorAll('.cta-btn, .nav-cta, .mobile-cta a').forEach(btn => {
+  btn.addEventListener('click', () => {
+    if (typeof gtag === 'function') {
+      gtag('event', 'cta_click', {
+        event_category: 'engagement',
+        event_label: btn.closest('.hero') ? 'hero' :
+                     btn.closest('.space') ? 'space' :
+                     btn.closest('.footer-cta') ? 'footer_cta' :
+                     btn.closest('.nav') ? 'nav' :
+                     btn.closest('.mobile-cta') ? 'mobile_fixed' : 'other'
+      });
+    }
+  });
+});
+
+// Scroll depth tracking
+const scrollDepths = [25, 50, 75, 100];
+const scrollFired = {};
+window.addEventListener('scroll', () => {
+  const scrollPct = Math.round((window.scrollY + window.innerHeight) / document.documentElement.scrollHeight * 100);
+  scrollDepths.forEach(depth => {
+    if (scrollPct >= depth && !scrollFired[depth]) {
+      scrollFired[depth] = true;
+      if (typeof gtag === 'function') {
+        gtag('event', 'scroll_depth', { event_category: 'engagement', event_label: depth + '%' });
+      }
+    }
+  });
+}, { passive: true });
+
+// Section view tracking
+const sections = document.querySelectorAll('section, .footer-cta');
+const sectionObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting && typeof gtag === 'function') {
+      gtag('event', 'section_view', {
+        event_category: 'engagement',
+        event_label: entry.target.id || entry.target.className.split(' ')[0]
+      });
+      sectionObserver.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.3 });
+sections.forEach(s => sectionObserver.observe(s));
+</script>
+</body>
+</html>
